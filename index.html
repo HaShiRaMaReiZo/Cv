@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Responsive Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+
+    <!-- navgaition menu -->
+    <nav>
+      <div class="nav-container">
+          <div class="logo" >
+            <span>Erick</span>
+          </div>
+          <div class="links">
+              <div class="link"><a href="#">Home</a></div>
+              <div class="link"><a href="#">About</a></div>
+              <div class="link" ><a href="#">Skills</a></div>
+              <div class="link" ><a href="#">Services</a></div>
+              <div class="link" ><a href="#">Contact</a></div>
+      </div>
+      <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+  </div>
+      <div class="dropdown">
+          <div class="links">
+              <a href="#">Home</a>
+              <a href="#">About</a>
+              <a href="#">Skills</a>
+              <a href="#">Service</a>
+              <a href="#">Contact</a>
+              <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+          </div>
+      </div>
+  </nav>
+  <section>
+      <div class="main-container">
+          <div class="image">
+              <img src="main.jpg" alt="">
+          </div>
+          <div class="content">
+              <h1 data-aos="fade-left" >Hi,I'm <span>Erick</span></h1>
+              <div class="typewriter" >I'm a <span class="typewriter-text"></span><label for="">|</label></div>
+              <p>As a dedicated and passionate developer, I specialize in crafting innovative solutions and bringing ideas to life through code. My goal is to continuously refine my skills, embrace challenges, and deliver exceptional results. Let’s connect and make something amazing together!</p>
+              <div class="social-links">
+                  <a href="viber://business/chat?account=c8c3ee8a-c6c4-11ef-9c2e-767322207439"><i class="fa-brands fa-viber"></i></a>
+                  <a href="https://www.facebook.com/profile.php?id=100073324597722&mibextid=kFxxJD"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="https://www.instagram.com/kiddyerick69?igsh=aTU2dHJpYWd3c2d0" ><i class="fa-brands fa-instagram"></i></a>
+                  <a href="https://t.me/erickboyle" ><i class="fa-brands fa-telegram"></i></a>
+              </div>
+              
+          </div>
+      </div>
+  </section>
+
+
+  <!-- About Section Start -->
+
+  <section class="about" id="about">
+      <div class="content">
+        <div class="title"><span>About Me</span></div>
+        <div class="about-details">
+          <div class="left" >
+            <img src="main.jpg" alt="" />
+          </div>
+          <div class="right" >
+            <div class="topic" >Coding Is My Passion</div>
+            <p >Coding is more than just a skill for me; it’s a journey of creativity and problem-solving. I am deeply passionate about exploring new technologies and continuously improving my abilities. Through coding, I not only build solutions but also challenge myself to think critically and innovate. I enjoy collaborating with colleagues, as teamwork and communication inspire growth and fresh ideas. My ultimate goal is to refine my skills and make meaningful contributions to the tech world while pursuing my love for learning and development.</p>
+            <div class="button" >
+              <button type="button" onclick="location.
+                  href='download.html'">Download CV</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- My Skill Section Start -->
+    <section class="skills" id="skills">
+      <div class="content">
+        <div class="title" ><span>My Skills</span></div>
+        <div class="skills-details">
+          <div class="text">
+            <div class="topic" ></div>
+            <p >My skills reflect my commitment to delivering high-quality work. With a strong foundation in HTML and CSS, I excel in creating responsive and visually appealing web designs. My experience in JavaScript allows me to add interactivity and enhance user experiences. I am also knowledgeable in database management, which helps me efficiently handle data storage and retrieval. Additionally, I have a solid understanding of networking principles, enabling me to ensure robust and secure web applications. I continuously strive to improve my skills and stay updated with the latest technologies to provide the best solutions for my projects.</p>
+            
+          </div>
+          <div class="boxes">
+            <div class="box">
+              <div class="topic" >HTML/CSS</div>
+              <div class="per" >65%</div>
+            </div>
+            <div class="box">
+              <div class="topic">Database</div>
+              <div class="per">55%</div>
+            </div>
+            <div class="box">
+              <div class="topic">JavaScript</div>
+              <div class="per" >50%</div>
+            </div>
+            <div class="box">
+              <div class="topic">Networking</div>
+              <div class="per">55%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Services Section Start -->
+    <section class="services" id="services">
+      <div class="content">
+        <div class="title" ><span>My Services</span></div>
+        <div class="boxes">
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-desktop"></i>
+            </div>
+            <div class="topic">Web Devlopment</div>
+            <p>I specialize in web development, with proficiency in HTML, CSS, and JavaScript.I prioritize creating responsive websites.</p>
+          </div>
+          <div class="box" >
+            <div class="icon">
+              <i class="fas fa-paint-brush"></i>
+            </div>
+            <div class="topic">Graphic Design</div>
+            <p>I have a passion for graphic design, creating logos and marketing materials.I use Adobe Illustrator and Photoshop.</p>
+          </div>
+          <div class="box" >
+            <div class="icon">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="topic">Networking</div>
+            <p>I understand networking systems and help ensure security and performance.</p>
+          </div>
+          <div class="box" >
+            <div class="icon">
+              <i class="fab fa-android"></i>
+            </div>
+            <div class="topic">Icon Design</div>
+            <p>I strive to create simple and effective icons.</p>
+          </div>
+          <div class="box" >
+            <div class="icon">
+              <i class="fas fa-camera-retro"></i>
+            </div>
+            <div class="topic">Photography</div>
+            <p>I am interested in photography and create high-quality images.</p>
+          </div>
+          <div class="box" >
+            <div class="icon">
+              <i class="fas fa-database"></i>
+            </div>
+            <div class="topic">Database</div>
+            <p>I have knowledge of database management and proficiency in SQL and database systems</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Me section Start -->
+    <section class="contact" id="contact">
+      <div class="content">
+        <div class="title" ><span>Conclusion</span></div>
+        <div class="text">
+          <div class="topic" >I will prioritize continuous learning to enhance my work and strive to help improve your projects. I am prepared to assist in elevating your business. By collaborating together, I will utilize my experience and passion to ensure the success of your initiatives.</div>
+         
+          <div class="button" >
+            <button type="button" onclick="location.
+                  href='viber://business/chat?account=c8c3ee8a-c6c4-11ef-9c2e-767322207439'">Hire me</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section Start -->
+    <footer >
+      <div class="text">
+        <span>Created By <a href="#">Erick Boyle</a> | &#169; 2024 All Rights Reserved</span>
+      </div>
+    </footer>
+
+    
+    <script src="script.js"></script>
+  </body>
+</html> 
